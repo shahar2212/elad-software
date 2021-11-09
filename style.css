@@ -1,0 +1,74 @@
+@media screen and (min-width: 800px) {
+.website-container{
+    font-family: 'Lucida Sans';
+    font-size: 18px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(162, 214, 235);
+    border: solid black 1px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px ;
+    margin-left: 20px;
+    padding: 10px;
+    padding-right: 15px;
+    animation-name: swift;
+    animation-duration: 4s;
+    
+    /**remove 'position relative' to get the same look as requested. **/
+    position: relative; 
+}
+
+@keyframes swift {
+    0%{left: 100%;}
+    50%{left: 0%;}
+    100%{left: 100%px;}
+    
+}
+}
+
+a{
+    color: blue;
+    position: relative; 
+}
+
+
+a:hover{
+    color: darkmagenta;
+
+}
+
+div.website-container >div{
+    width: 95%;
+    left: 100px;
+}
+
+div.website-container > div {
+    background-color: rgb(121, 173, 233);
+}
+
+div.website-container > div >div {
+    background-color: rgb(132, 117, 133);
+}
+
+div.website-container > div >div >div {
+    background-color: rgb(179, 101, 70);
+}
+
+@media  (max-width: 768px) {
+    .website-container{
+        font-family: 'Lucida Sans';
+        font-size: 18px;
+        margin: auto;
+        margin-top: 20px;
+        background-color: rgb(162, 214, 235);
+        border: solid black 1px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px ;
+        margin-left: 20px;
+        padding: 10px;
+        padding-right: 15px;
+    }
+    
+  }
+
+
