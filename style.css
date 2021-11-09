@@ -21,8 +21,6 @@
 @keyframes swift {
     0%{left: 100%;}
     50%{left: 0%;}
-    100%{left: 100%px;}
-    
 }
 }
 
@@ -54,21 +52,19 @@ div.website-container > div >div >div {
     background-color: rgb(179, 101, 70);
 }
 
-@media  (max-width: 768px) {
+@media   (max-width: 768px) {
     .website-container{
+        width: 50%;
+        height: 150%;
         font-family: 'Lucida Sans';
-        font-size: 18px;
-        margin: auto;
-        margin-top: 20px;
+        font-size: 10px;
+        margin-top: 10px;
         background-color: rgb(162, 214, 235);
         border: solid black 1px;
         border-radius: 20px;
         box-shadow: 2px 2px 10px ;
-        margin-left: 20px;
         padding: 10px;
-        padding-right: 15px;
     }
-    
   }
 
 
