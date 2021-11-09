@@ -18,7 +18,7 @@ function renderData(data, biggerContainerId) {
         newDiv.classList = 'website-container';
         //position the div inside the father div.
         document.getElementById(biggerContainerId).appendChild(newDiv)
-        //if there is subData, call the renderData function with the new arguments if true.
+        //if there is subData, call the renderData function with the new arguments.
         if (data[x].subData) {
             let subData = data[x].subData;
             renderData(subData, newDivId);
